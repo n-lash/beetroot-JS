@@ -3,4 +3,5 @@
 23. **Основы Javascript**
 * _[JS -1](https://n-lash.github.io/beetroot-JS/JS-1_Basics/)_
 24. **Типы данных и операторы**
-*_[JS-2]()_
+*_[JS-2](https://n-lash.github.io/beetroot-JS/JS-2_Data-types-and-operators/)_
+25. 
