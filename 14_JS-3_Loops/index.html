@@ -18,17 +18,18 @@
     let num1 = Number(prompt('Для подсчета суммы чисел в заданном диапазоне введите начальную цифру диапазона'));
     let num2 = Number(prompt('Введите конечную цифру'));
     let sum = 0;
+
     if (num1 < num2) {
         while (num1 <= num2) {
             sum += num1;
             num1++;
-        }
+        };
     } else if (num1 > num2) {
         while (num1 >= num2) {
             sum += num2;
             num2++;
-        }
-    }
+        };
+    };
     alert(`Сумма всех чисел в указанном диапазоне ${sum}`);
                 </pre>
                 <button id="task1">Run code</button>
@@ -45,8 +46,8 @@
             number1 = number1 % number2;
         } else {
             number2 = number2 % number1;
-        }
-    }
+        };
+    };
     alert(` Наибольший общий делитель двух указанных чисел равен ${number1 + number2}`);
                 </pre>
                 <button id="task2">Run code</button>
@@ -60,8 +61,8 @@
         if (number % i == 0 && number !== 1 ) {
             console.log(i);
             divisor.push(i);
-        }
-    }
+        };
+    };
     alert(`Все делители числа ${number}:  ${divisor}`);
                 </pre>
                 <button id="task3">Run code</button>
@@ -69,11 +70,12 @@
             <li>
                 <span>Определить количество цифр в введенном числе.</span>
                 <pre>
-    let userNumber = prompt(' Введите число'); // 123
+    let userNumber = prompt(' Введите число'); 
     let count = 0;
+
     for (let i = 0; i < userNumber.length; i++) {
         count += 1;
-    }
+    };
     alert(` Число состоит из ${count} цифр`);
                 </pre>
                 <button id="task4">Run code</button>
@@ -89,22 +91,22 @@
 
     for (let i = 1; i <= 10; i++ ) {
         let num = prompt("Введите число");
-        console.log(num);
+        
         if (num > 0) {
         positive++;
-        } 
+        };
         if (num < 0) {
         negative++;
-        }
+        };
         if (num == 0) {
         zero++;
-        }
+        };
         if (num % 2 == 0) {
         even++;
-        }
+        };
         if (num % 2 !== 0) {
         odd++;
-        }
+        };
     };
 
     alert(` Из введенных цифр - положительных: ${positive}, отрицательных: ${negative}, нулей: ${zero}, четных: ${even}, нечетных: ${odd}.`)
@@ -143,13 +145,13 @@
     const days = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"];
     let currentDay = 0;
     let nextDay;
-    do{
+    do {
         alert(`День недели - ${days[currentDay]}.`);
         nextDay = confirm(' Хотите увидеть следующий день?');
         currentDay++;          
         if (currentDay === days.length) {
             currentDay = 0;
-        }            
+        };         
 
     } while (nextDay);
                 </pre>
@@ -160,12 +162,12 @@
                 <pre>
     let tables = [];
 
-    for(let i = 2; i <= 9; i++) {
-        tables.push(`\nТаблица умножения ${i}\n`);
-        for(let j = 1; j <=10; j++){
-            tables.push(`${i} * ${j} = ${i*j}; `)
-        }
-    }
+    for (let i = 2; i <= 9; i++) {
+        tables.push(`\n Таблица умножения ${i}:\n`);
+        for (let j = 1; j <=10; j++) {
+            tables.push(`${i} * ${j} = ${i*j}; `);
+        };
+    };
     alert(tables.join(''));
     console.log(tables.join(''));
                 </pre>

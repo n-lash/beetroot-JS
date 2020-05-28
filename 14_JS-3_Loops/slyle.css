@@ -63,7 +63,7 @@ pre {
     background-color: #eee;
     max-width: 70%;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
     padding: 10px;
     white-space: pre-wrap;      /* css-3 */
     white-space: -moz-pre-wrap; /* moz*/
@@ -72,6 +72,7 @@ pre {
     word-wrap: break-word;      /*IE 5.5+,  */
 }
 .container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
+    text-align: justify;
 }
