@@ -1,0 +1,106 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Ingrid Lunden",
+            "title": "SoftBank launches $100M+ Opportunity Growth Fund to invest in founders of color",
+            "description": "As we continue to see protests across the US (and elsewhere) sparked by the killing of George Floyd by police in Minnesota, SoftBank is announcing a new investment vehicle to back entrepreneurs of color, part of its contribution to trying to redress the imbal…",
+            "url": "https://techcrunch.com/2020/06/03/softbank-launches-100m-opportunity-growth-fund-to-invest-in-founders-of-color/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/10/GettyImages-1172366774.jpg?w=600",
+            "publishedAt": "2020-06-03T13:01:20Z",
+            "content": "As we continue to see protests across the US (and elsewhere) sparked by the killing of George Floyd by police in Minnesota, SoftBank is announcing a new investment vehicle to back entrepreneurs of co… [+4318 chars]"
+        },
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Romain Dillet",
+            "title": "Watchful is a mobile product intelligence startup that surfaces unreleased features",
+            "description": "Meet Watchful, a Tel Aviv-based startup coming out of stealth that wants to help you learn more about what your competitors are doing when it comes to mobile app development. The company tries to identify features that are being tested before getting rolled o…",
+            "url": "https://techcrunch.com/2020/06/03/watchful-is-a-mobile-product-intelligence-startup-that-surfaces-unreleased-features/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/06/przemyslaw-marczynski-oCfkSnqZ0SI-unsplash.jpg?w=600",
+            "publishedAt": "2020-06-03T13:00:04Z",
+            "content": "Meet Watchful, a Tel Aviv-based startup coming out of stealth that wants to help you learn more about what your competitors are doing when it comes to mobile app development. The company tries to ide… [+3943 chars]"
+        },
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Anthony Ha",
+            "title": "Lili raises $10M for its freelancer banking app",
+            "description": "Lili, a startup building banking products to meet the needs of freelance workers, is announcing that it has raised $10 million in seed funding. The startup takes its name from its founders, CEO Lilac Bar David and CTO Liran Zelkha, who previously founded Isra…",
+            "url": "https://techcrunch.com/2020/06/03/lili-seed-funding/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/06/Lili-iPhone-card-hand-01.jpg?w=600",
+            "publishedAt": "2020-06-03T12:21:41Z",
+            "content": "Lili, a startup building banking products to meet the needs of freelance workers, is announcing that it has raised $10 million in seed funding.\r\nThe startup takes its name from its founders, CEO Lila… [+2317 chars]"
+        },
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Anna Escher",
+            "title": "Tembici raises $47M Series B to expand its fleet of electric bikes",
+            "description": "Tembici, which says it owns 80% of the market share in Latin America’s micromobility space, now has $47 million more in capital to double down on its docked ebike offering.  The Series B round was led by Valor Capital and Redpoint eventures. The International…",
+            "url": "https://techcrunch.com/2020/06/03/tembici-raises-47m-series-b-to-expand-its-fleet-of-electric-bikes/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/06/9.jpg?w=600",
+            "publishedAt": "2020-06-03T12:05:58Z",
+            "content": "Tembici, which says it owns 80% of the market share in Latin Americas micromobility space, now has $47 million more in capital to double down on its docked ebike offering. \r\nThe Series B round was le… [+3391 chars]"
+        },
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Mike Butcher",
+            "title": "C4 Ventures raises $88M fund for for post-Series A startups, in a post-COVID19 world",
+            "description": "C4 Ventures, the Paris -based VC, has raised a new €80 million ($88 million) “Fund II”. The fund was founded by Pascal Cagni, a former Europe boss of Apple, and includes cofounder Raph Crouan, another Apple alumni previously with Techstars and Hardware Club. …",
+            "url": "https://techcrunch.com/2020/06/03/c4-ventures-raises-88m-fund-for-for-post-series-a-startups-in-a-post-covid19-world/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/06/img-2020_06_03_08_11_47-7481-crop274.jpg?w=710",
+            "publishedAt": "2020-06-03T11:24:23Z",
+            "content": "C4 Ventures, the Paris -based VC, has raised a new 80 million ($88 million) Fund II”. The fund was founded by Pascal Cagni, a former Europe boss of Apple, and includes cofounder Raph Crouan, another … [+1715 chars]"
+        },
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Ingrid Lunden",
+            "title": "Israel's Team8 raises $104M to make bigger cybersecurity bets",
+            "description": "Team8, the Israel-based firm founded by a team of intelligence vets and backed by the likes of Intel, Microsoft, Walmart and Cisco to develop and spin out cybersecurity startups, is announcing a step change in its business model that underscores the huge amou…",
+            "url": "https://techcrunch.com/2020/06/03/israels-team8-raises-104m-to-make-bigger-cybersecurity-bets/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/02/gettyimages-655977302.jpg?w=600",
+            "publishedAt": "2020-06-03T11:18:14Z",
+            "content": "Team8, the Israel-based firm founded by a team of intelligence vets and backed by the likes of Intel, Microsoft, Walmart and Cisco to develop and spin out cybersecurity startups, is announcing a step… [+4822 chars]"
+        },
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Romain Dillet",
+            "title": "Idinvest shares some trends on European consumer tech",
+            "description": "French VC firm Idinvest has compiled some data about the European tech ecosystem. The firm has decided to focus on consumer tech in general, and there are some interesting trends that I’m going to break out here. You can read the full report here. The team ha…",
+            "url": "https://techcrunch.com/2020/06/03/idinvest-shares-some-trends-on-european-consumer-tech/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/06/markus-spiske-wIUxLHndcLw-unsplash.jpg?w=678",
+            "publishedAt": "2020-06-03T08:04:51Z",
+            "content": "French VC firm Idinvest has compiled some data about the European tech ecosystem. The firm has decided to focus on consumer tech in general, and there are some interesting trends that Im going to bre… [+3618 chars]"
+        },
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Jonathan Shieber",
+            "title": "LanzaJet launches to make renewable jet fuel a reality",
+            "description": "Over a fifteen year stretch, LanzaTech has developed technologies that can turn carbon emissions into ethanol that can be used for chemicals and fuel. Today, the company announced the spinout of LanzaJet alongside its corporate partners Mitsui, Suncor, and Al…",
+            "url": "https://techcrunch.com/2020/06/02/lanzajet-launches-to-make-renewable-jet-fuel-a-reality/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/11/GettyImages-769719853.jpg?w=638",
+            "publishedAt": "2020-06-03T05:22:24Z",
+            "content": "Over a fifteen year stretch, LanzaTech has developed technologies that can turn carbon emissions into ethanol that can be used for chemicals and fuel. Today, the company announced the spinout of Lanz… [+8792 chars]"
+        },
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Manish Singh",
+            "title": "Facebook strikes global licensing deal with Indian music label Saregama",
+            "description": "Facebook said on Wednesday it has entered into a global deal with Saregama, one of India’s oldest music labels, to license its music for video and other social experiences across its marquee and Instagram services. This partnership, which comes weeks after Sw…",
+            "url": "https://techcrunch.com/2020/06/02/facebook-strikes-global-licensing-deal-with-indian-music-label-saregama/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/05/GettyImages-936481322.jpg?w=600",
+            "publishedAt": "2020-06-03T04:33:30Z",
+            "content": "Facebook said on Wednesday it has entered into a global deal with Saregama, one of Indias oldest music labels, to license its music for video and other social experiences across its marquee and Insta… [+943 chars]"
+        },
+        {
+            "source": { "id": "techcrunch", "name": "TechCrunch" },
+            "author": "Jonathan Shieber",
+            "title": "Workforce training app developer Poka adds strategic investor Schneider Electric",
+            "description": "Poka, a workforce training app and software service for industrial companies, has added SE Ventures, the venture capital arm of the European energy and automation conglomerate Schneider Electric to its roster of backers. The company has raised over $23 millio…",
+            "url": "https://techcrunch.com/2020/06/02/workforce-training-app-developer-poka-adds-strategic-investor-schneider-electric/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/09/GettyImages-670852562.jpg?w=599",
+            "publishedAt": "2020-06-03T02:37:56Z",
+            "content": "Poka, a workforce training app and software service for industrial companies, has added SE Ventures, the venture capital arm of the European energy and automation conglomerate Schneider Electric to i… [+1626 chars]"
+        }
+    ]
+}
