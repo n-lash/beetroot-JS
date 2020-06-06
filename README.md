@@ -7,6 +7,6 @@
 25. **Циклы**
 * _[JS-3](https://n-lash.github.io/beetroot-JS/14_JS-3_Loops/)_
 26. **Функции**
-* _[JS-4]()_
+* _[JS-4](https://n-lash.github.io/beetroot-JS/15_JS-4_Functions/)_
 27. **Объекты**
 * _[JS-5]()_
