@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Объекты</h1>
+        <p>Домашнее задание:</p>
+        <ol>
+            <li>
+                <span>Создать объект, описывающий автомобиль (производитель, модель, год выпуска, средняя скорость), и следующие функции для работы с этим объектом:</span>
+                <span>Функция для вывода на экран информации об автомобиле;</span>
+                <span>Функция для подсчета необходимого времени для преодоления переданного расстояния со средней скоростью. Учтите, что через каждые 4 часа дороги водителю необходимо делать перерыв на 1 час.</span>
+                <pre>
+    const car = {
+        manufacturer: 'Renault',
+        model: 'Megan',
+        year: 2008,
+        averageSpeed: 80,
+        showInfo() {
+            console.log(`Производитель: ${this.manufacturer},\n модель: ${this.model},\n Cредняя скорость: ${this.averageSpeed} `);
+        },
+        getTravelTime(s = 0, restInterval = 1) {
+            if (isNaN(s) || isNaN(restInterval)) {
+                return 'Error';
+            }
+            let travelTime = s / this.averageSpeed;
+            let numberOfStops = Math.floor(travelTime / 4);
+            travelTime += numberOfStops * restInterval; 
+            return travelTime;
+        },
+    }
+    
+    car.showInfo();
+    console.log(car.getTravelTime(500));    // 7.25
+    console.log(car.getTravelTime(800));    // 12
+                </pre>
+            </li>
+            <li>
+                <span>Создать объект, хранящий в себе отдельно числитель и знаменатель дроби, и следующие функции для работы с этим объектом: </span>
+                <span>Функция сложения 2-х объектов-дробей;</span>
+                <span>Функция вычитания 2-х объектов-дробей;</span>
+                <span>Функция умножения 2-х объектов-дробей;</span>
+                <span>Функция деления 2-х объектов-дробей;</span>
+                <span>Функция сокращения объекта-дроби.</span>
+                <pre>
+        //
+                </pre>
+            </li>
+            <li>
+                <span>Создать объект, описывающий время (часы, минуты, секунды), и следующие функции для работы с этим объектом:</span>
+                <span>Функция вывода времени на экран;</span>
+                <span>Функция изменения времени на переданное количество секунд;</span>
+                <span>Функция изменения времени на переданное количество минут;</span>
+                <span>Функция изменения времени на переданное количество часов. </span>
+                <span>Учтите, что в последних 3-х функциях, при изменении одной части времени, может измениться и другая. Например, если ко времени «20:30:45» добавить 30 секунд, то должно получиться «20:31:15», а не «20:30:75».</span>
+                <pre>
+        //
+                </pre>
+            </li>
+        </ol>
+   </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>

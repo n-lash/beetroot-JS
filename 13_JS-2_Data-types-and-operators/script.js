@@ -53,7 +53,7 @@
 
     // 3
     const number = prompt('Введите трехзначное число', '123');
-    if (number.length > 3 || number.length < 3) {
+    if (number.length !== 3 ) {
         alert('Введено не трехзначное число');
     } else if (isNaN(number)) {
         alert('Введено не число');
