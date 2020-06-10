@@ -168,18 +168,25 @@ const time = {
     },
 }
 
-console.log(time);  // {h: 2, m: 23, s: 40, showTime: ƒ, changeSeconds: ƒ, …}
+console.log(time);   // {h: 2, m: 23, s: 40, showTime: ƒ, changeSeconds: ƒ, …}
 
-time.showTime();    // 2:23:40
+time.showTime();     // 2:23:40
 console.log(time.changeSeconds(4500));       // {h: 3, m: 38, s: 0, showTime: ƒ, changeSeconds: ƒ, …}
 console.log(time.changeSeconds(8050));       // {h: 5, m: 52, s: 10, showTime: ƒ, changeSeconds: ƒ, …}
 console.log(time.changeSeconds(108050));     // {h: 35, m: 52, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
 
-console.log(time.changeMinutes(85));         // {h: 3, m: 48, s: 40, showTime: ƒ, changeSeconds: ƒ, …}
-console.log(time.changeMinutes(12));         // {h: 2, m: 35, s: 40, showTime: ƒ, changeSeconds: ƒ, …}
+console.log(time);       // {h: 35, m: 52, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
 
-console.log(time.changeHours(3));             // {h: 5, m: 23, s: 40, showTime: ƒ, changeSeconds: ƒ, …}
-console.log(time.changeHours(4));             // {h: 6, m: 23, s: 40, showTime: ƒ, changeSeconds: ƒ, …}
+
+console.log(time.changeMinutes(85));         // {h: 36, m: 17, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
+console.log(time.changeMinutes(12));         // {h: 36, m: 29, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
+
+console.log(time);       // {h: 36, m: 29, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
+
+console.log(time.changeHours(3));             // {h: 39, m: 29, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
+console.log(time.changeHours(4));             // {h: 43, m: 29, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
+
+console.log(time);       // {h: 43, m: 29, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
 
 
 const makeTime = (h = 0, m = 0, s = 0) => {
