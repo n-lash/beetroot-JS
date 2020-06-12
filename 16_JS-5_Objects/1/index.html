@@ -177,7 +177,6 @@ console.log(time.changeSeconds(108050));     // {h: 35, m: 52, s: 50, showTime: 
 
 console.log(time);       // {h: 35, m: 52, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
 
-
 console.log(time.changeMinutes(85));         // {h: 36, m: 17, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
 console.log(time.changeMinutes(12));         // {h: 36, m: 29, s: 50, showTime: ƒ, changeSeconds: ƒ, …}
 
@@ -208,7 +207,7 @@ const time3 = makeTime(3, 47, 62);  // error. Enter 0 < s < 60
 const time4 = makeTime(18, 38, 22);
 
 console.log(time1);    // {h: "06", m: 12, s: 50}
-console.log(time4);   // {h: 18, m: 38, s: 22}
+console.log(time4);    // {h: 18, m: 38, s: 22}
 
 
 const showTime = (time = {}) => {
@@ -216,7 +215,7 @@ const showTime = (time = {}) => {
     
 }  
 showTime(time1);     // 06:12:50
-showTime(time4);    // 18:38:22                    
+showTime(time4);     // 18:38:22                    
                 </pre>
             </li>
         </ol>

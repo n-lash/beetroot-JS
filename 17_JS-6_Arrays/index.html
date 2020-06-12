@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Массивы</h1>
+        <p>Домашнее задание:</p>
+        <ol>
+            <li>
+                Создать массив «Список покупок». Каждый элемент массива является объектом, который содержит название продукта, необходимое количество и куплен или нет. Написать несколько функций для работы с таким массивом.
+                <ul>
+                    <li>Вывод всего списка на экран таким образом, чтобы сначала шли некупленные продукты, а потом – купленные.</li>
+                    <li>Добавление покупки в список. Учтите, что при добавлении покупки с уже существующим в списке продуктом, необходимо увеличивать количество в существующей покупке, а не добавлять новую.</li>
+                    <li>Покупка продукта. Функция принимает название продукта и отмечает его как купленный.</li>
+                </ul>
+                <pre>
+// 1
+const shoppingList = [
+    {
+        name: 'bread',
+        count: 2,
+        isBought: true,
+    },
+    {
+        name: 'butter',
+        count: 1,
+        isBought: true,
+    },
+    {
+        name: 'milk',
+        count: 3,
+        isBought: false,
+    },
+    {
+        name: 'egg',
+        count: 6,
+        isBought: false,
+    },
+    {
+        name: 'tomato',
+        count: 8,
+        isBought: false,
+    },
+    {
+        name: 'sauce',
+        count: 1,
+        isBought: true,
+    },
+]
+
+// 1.1 Сортировка - сначала некупленные товары, потом купленные
+const sortedShoppingList = [...shoppingList];
+
+// a)
+sortedShoppingList.sort(function(a, b) {
+    if (a.isBought === true && b.isBought === false) {
+        return 1;
+    }
+    if (a.isBought === false && b.isBought === true) {
+        return -1;
+    }
+    return 0;
+})
+
+// b)
+sortedShoppingList.sort(function(a, b) {
+    return a.isBought - b.isBought;
+})
+
+console.log(sortedShoppingList);  // 0: {name: "milk", count: 3, isBought: false}
+                                    // 1: {name: "egg", count: 6, isBought: false}
+                                    // 2: {name: "tomato", count: 8, isBought: false}
+                                    // 3: {name: "bread", count: 2, isBought: true}
+                                    // 4: {name: "butter", count: 1, isBought: true}
+                                    // 5: {name: "sauce", count: 1, isBought: true}
+                                    // length: 6
+
+
+// 1.2 Добавление покупки в список
+let addPurchase = (name, count, arr) => {
+    
+    if (arr.find(item => item.name === name)) {
+        for (let i = 0; i < arr.length; i++) 
+            if (name === arr[i].name) {
+                arr[i].count += count;
+            }
+    } else {
+        arr.push({
+                name,
+                count,
+                isBought: false,
+        }) 
+    }
+
+    return arr;
+    
+}
+
+const newList1 = [...shoppingList];
+console.log(newList1);      // 0: {name: "bread", count: 2, isBought: true}
+                            // 1: {name: "butter", count: 1, isBought: true}
+                            // 2: {name: "milk", count: 3, isBought: false}
+                            // 3: {name: "egg", count: 6, isBought: false}
+                            // 4: {name: "tomato", count: 8, isBought: false}
+                            // 5: {name: "sauce", count: 1, isBought: true}
+
+console.log(addPurchase('egg', 4, newList1));       // 0: {name: "bread", count: 2, isBought: true}
+                                                    // 1: {name: "butter", count: 1, isBought: true}
+                                                    // 2: {name: "milk", count: 3, isBought: false}
+                                                    // 3: {name: "egg", count: 10, isBought: false}
+                                                    // 4: {name: "tomato", count: 8, isBought: false}
+                                                    // 5: {name: "sauce", count: 1, isBought: true}
+
+console.log(addPurchase('banana', 2, newList1));    // 0: {name: "bread", count: 2, isBought: true}
+                                                    // 1: {name: "butter", count: 1, isBought: true}
+                                                    // 2: {name: "milk", count: 3, isBought: false}
+                                                    // 3: {name: "egg", count: 10, isBought: false}
+                                                    // 4: {name: "tomato", count: 8, isBought: false}
+                                                    // 5: {name: "sauce", count: 1, isBought: true}
+                                                    // 6: {name: "banana", count: 2, isBought: false}
+
+// 1.3   Покупка продукта
+
+                </pre>
+            </li>
+            <li>
+                Создать массив, описывающий чек в магазине. Каждый элемент массива состоит из названия товара, количества и цены за единицу товара. Написать следующие функции:
+                <ul>
+                    <li>Распечатка чека на экран;</li>
+                    <li>Подсчет общей суммы покупки;</li>
+                    <li>Получение самой дорогой покупки в чеке;</li>
+                    <li>Подсчет средней стоимости одного товара в чеке.</li>
+                </ul>
+                <pre>
+//
+                </pre>
+            </li>
+            <li>
+                Создать массив CSS-стилей (цвет, размер шрифта, выравнивание, подчеркивание и т. д.). Каждый элемент массива – это объект, состоящий из двух свойств: название стиля и значение стиля. 
+                <ul>
+                    <li>Написать функцию, которая принимает массив стилей и текст, и выводит этот текст с помощью document.write() в тегах &lt;p&gt; &lt;/p&gt;, добавив в открывающий тег атрибут style со всеми стилями, перечисленными в массиве.</li>
+                </ul>
+                <pre>
+                    //
+                </pre>
+            </li>
+            <li>
+                Создать массив аудиторий академии. Объект-аудитория состоит из названия, количества посадочных мест (от 10 до 20) и названия факультета, для которого она предназначена. Написать несколько функций для работы с ним:
+                <ul>
+                    <li>Вывод на экран всех аудиторий;</li>
+                    <li>Вывод на экран аудиторий для указанного факультета;</li>
+                    <li>Вывод на экран только тех аудиторий, которые подходят для переданной группы. Объект-группа состоит из названия, количества студентов и названия факультета;</li>
+                    <li>Функция сортировки аудиторий по количеству мест;</li>
+                    <li>Функция сортировки аудиторий по названию (по алфавиту).</li>
+                </ul>
+                <pre>
+//
+                </pre>
+            </li>
+        </ol>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
