@@ -12,6 +12,9 @@
 * _[JS-5](https://n-lash.github.io/beetroot-JS/16_JS-5_Objects/1/)_
 * _[template with *.json from newsAPI](https://n-lash.github.io/beetroot-JS/16_JS-5_Objects/2/)_
 28. **Массивы**
-* _[JS-6]()_
+* _[JS-6](https://n-lash.github.io/beetroot-JS/17_JS-6_Arrays/)_
 29. **Классы**
-* _[JS-7]()_
+* _[JS-7](https://n-lash.github.io/beetroot-JS/18_JS-7_Classes/index.html)_
+30. **DOM**
+* _[JS-8](https://n-lash.github.io/beetroot-JS/18_JS-8_DOM/index.html)_
+31. 
