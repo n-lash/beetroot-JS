@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+    --bg-color: #32384C;
+    --bg-color--card: #222534;
+    --bg-color--nav: #2C2F40;
+    --btn-color: #13e28d;
+    --stars-color: #ffdd3f;
+
+    --color--text: #b7bacd;
+    --color--title: #ffffff;
+    --color--nav-tab-active: #fbfbfb;
+    --color--nav-tab: rgba(183, 186, 205, 0.7);
+
+    --main-font: 'Lato', sans-serif;
+
+    --font-size--main: 14px;
+    --font-size--nav: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 100%;
+    background: var(--bg-color) url('../img/bg.jpg') center no-repeat;
+    background-size: cover;
+    font-family: var(--main-font);
+    color: var(--color--text);
+    font-size: var(--font-size-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+img {
+    display: block;
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+.card {
+    max-width: 600px;
+    min-height: 540px;
+    background-color: var(--bg-color--card);
+}
+.container {
+   
+    /* min-height: 600px; */
+    /* padding: 109px 51px 100px 63px; */
+    /* background: var(--btn-color) url('../assets/img/main-bg.jpg') center no-repeat; */
+    /* background-size: cover; */
+}
+.nav {
+    background-color: var(--bg-color--nav);
+    &__list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        padding: 32px 0 35px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--color--nav-tab);
+        cursor: pointer;
+        height: 100%;
+        transition: .3s ease;
+        svg {
+            width: 24px;
+            height: 24px;
+            margin-bottom: 12px;
+            fill: var(--color--nav-tab);
+        }
+        h3 {
+            text-transform: uppercase;
+
+        }
+        &:after {
+            content: '';
+            display: block;
+            width: 148px;
+            height: 2px;
+            background-color: var(--color--nav-tab-active);
+            opacity: 0;
+            position: relative;
+            bottom: -34px;
+        }
+        &.disable {
+            opacity: 0.3;
+        }
+        &.active {
+            color: var(--color--nav-tab-active);
+            svg {
+                fill: var(--color--nav-tab-active);
+            }
+            &:after {
+                opacity: 1;
+            }
+        }
+    }
+}
+.tab {
+    padding: 60px 45px;
+    
+}

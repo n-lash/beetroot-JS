@@ -16,5 +16,8 @@
 29. **Классы**
 * _[JS-7](https://n-lash.github.io/beetroot-JS/18_JS-7_Classes/index.html)_
 30. **DOM**
-* _[JS-8](https://n-lash.github.io/beetroot-JS/18_JS-8_DOM/index.html)_
-31. 
+* _[JS-8](https://n-lash.github.io/beetroot-JS/19_JS-8_DOM/index.html)_
+31. **События**
+* _[]()_
+32. **Знакомство с jQuery. Tabs**
+* _[JS-10](https://n-lash.github.io/beetroot-JS/21_jQuery-tabs/index.html)_
